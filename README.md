@@ -1,0 +1,2 @@
+# LinkingStaticLib
+LinkingStaticLib
