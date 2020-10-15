@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LinkingStaticLib"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A short description of LinkingStaticLib."
   spec.source           = { :git => 'https://github.com/blotouta2/LinkingStaticLib.git', :tag => '0.0.1' }
   spec.source_files 	= 'Classes/**/*'
