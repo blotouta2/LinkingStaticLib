@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   spec.name         = "LinkingStaticLib"
   spec.version      = "0.0.1"
   spec.summary      = "A short description of LinkingStaticLib."
-  spec.source           = { :path => '.' }
+  spec.source           = { :git => 'https://github.com/blotouta2/LinkingStaticLib.git', :tag => '0.0.1' }
   spec.source_files 	= 'Classes/**/*'
   spec.public_header_files = 'Classes/**/*.h'
   spec.vendored_libraries = 'Classes/libBlotoutAnalytics.a'
@@ -37,6 +37,6 @@ A new LinkProject testing project.
   spec.homepage     = "https://github.com/blotouta2/LinkingStaticLib"
   spec.license      = {:file => 'LICENSE'}
   spec.author             = { "blotouta2" => "ankur@blotout.io" }
-  #spec.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
+  spec.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
   
 end
